@@ -1,0 +1,27 @@
+/*About Me*/
+article{
+	text-align: left;	
+	 -webkit-font-smoothing: antialiased !important;
+}
+article .intro{
+	text-align:center;
+	width: 80%;
+	margin: auto;
+}
+.aboutContent{
+	width: 80%;
+	padding: 2% 0 2% 5%;
+}
+.aboutContent h2{
+	font-weight: bold;
+}
+
+.aboutContent span{
+	padding-right: 30px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.aboutContent p{
+	display: inline-block;
+}

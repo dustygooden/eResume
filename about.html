@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My Name</title>
+		<meta name="description" content="About ME" />
+		<meta name="keywords" content="" />
+		<meta name="author" content="My Name" />
+		<link href="icon.ico" rel="icon" />
+		<link href="css/style.css" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" href= "css/aboutStyle.css" type="text/css" />
+		<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+		<script src="js/jquery.dropotron.min.js"></script>
+		<script>
+			$(function() {
+
+				// Note: make sure you call dropotron on the top level <ul>
+				$('#main-nav > ul').dropotron({ 
+					offsetY: -10 // Nudge up submenus by 10px to account for padding
+				});
+
+			});
+		</script>
+	</head>
+	<body>
+		<nav id="main-nav">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About Me</a></li>
+				<li><a href="#">Projects</a>
+					<ul>
+						<li><a href="#">Project 1</a>
+							<ul>
+								<li><a href="#">Sub-Project 1</a></li>
+								<li><a href="#">Sub-Project 2</a></li>
+							</ul>
+						</li>
+						<li><a href="#">Project 2</a></li>
+					</ul>
+				</li>
+				<li><a href="contact.html">Contact Me</a></li>
+			</ul>
+		</nav>
+		<section>
+			<header>
+				<h1>About Me</h1>
+			</header>
+			<article>
+				<p class="intro">My name is ..., and here is some information about me.</p><br/>
+				<div class="aboutContent">
+					<h2>- IT Related Experiences</h2>
+					<span class="fa fa-windows fa-3x"></span><p>This would be an example of someone with experience in Windows. (Including: XP, Vista, 7, 8, and 8.1).</p><br/>
+					<span class="fa fa-android fa-3x"></span><p>This would be an example of someone with experience in Android OS.</p><br/>
+					<span class="fa fa-apple fa-3x"></span><p>This would be an example of someone with experience in OSX.</p><br/>
+				</div>
+			</article>
+			<footer>
+				<div class="iconGroup">
+					<div><a target="_blank" href="files/Resume.pdf"><span class="fa fa-file"></span></a></div>
+					<div><a target="_blank" href="#"><span class="fa fa-facebook"></span></a></div>
+					<div><a target="_blank" href="#"><span class="fa fa-linkedin"></span></a></div>
+					<div><a target="_blank" href="#"><span class="fa fa-google-plus"></span></a></div>
+				</div>
+			</footer>
+		</section>
+	</body>
+</html>
