@@ -1,0 +1,95 @@
+--------------------------------
+ Instructions for eResume
+--------------------------------
+ 
+eResume is intended for personal use. I do not reserve any rights to the 
+contents of this Repository, and place it in the public domain. Fell free
+to use it for personal, commercial, and any use which you see fit.
+
+--------------------------------
+ The Home Page
+--------------------------------
+
+Open the index.html file to begin.
+
+-In the Head section-
+	Between the <title> tags place your name. (ex. <title>John Smith</title>).
+	Between the <meta> tags...
+		for the description change the content to something like "John Smith's Personal eResume"
+		for the keywords change the content to include your name and occupation in a comma separated list.
+		for the author change the content to your name.
+	There is an icon file included in the repository, feel free to use your own.
+
+	
+-In the Body section-
+	-Navigation-
+		Change the content between the <a> tags to whatever tabs you wish for your site to have.
+		Change the href for each item to either a link to an external page, or a file within the website folder.
+		The Projects tab has a sub-section followed by another sub-section, you can use this on any tab and include as many items as you wish.
+	-Main Content-
+		Between the <h1> tags, place your name.
+		Add an image of yourself to the website root folder, name the file "profile" (if possible make it a JPG file type, if you cannot, simply change that information on the website page.)
+		Between the <h2> tags place some information about what you do, like your profession.
+	-Footer Icons-
+		The first button is slightly different from the first, it points to a PDF version of your resume file.
+		Place your resume in the "files" folder and name it "resume", make sure it's a PDF. If you cannot make it a PDF, change that on the webpage.
+		Change the href of each of the <a> tags to your public profile on each of the associated sites. (Make sure that others can access this page.)
+		
+		
+		
+--------------------------------
+ The About Me Page
+--------------------------------
+
+Open the about.html file to begin.
+
+-In the Head section-
+	Between the <title> tags place your name. (ex. <title>John Smith</title>).
+	Between the <meta> tags...
+		*for the description change the content to something like "About John Smith"
+		for the keywords change the content to include your name and occupation in a comma separated list.
+		for the author change the content to your name.
+	There is an icon file included in the repository, feel free to use your own.
+
+	
+-In the Body section-
+	-Navigation-
+		Copy everything between the <nav> tags from the index.html file.
+	-Main Content-
+		Between the <p> tags, place a brief welcoming message. The message should be about a paragraph in length.
+		Between the <h2> tags, replace "MY PROFESSION" with your personal profession, like you did on the home page.
+		Use the span tags for Font Awesome icons that relate to the lines between the <p> tags. The <p> tags should be used for different experiences that you have had.
+	-Footer Icons-
+		Copy the content from between the <div> tags on the index.html file.
+		
+--------------------------------
+ The Contact Me Page
+--------------------------------
+
+Open the contact.html file to begin.
+
+-In the Head section-
+	Between the <title> tags place your name. (ex. <title>John Smith</title>).
+	Between the <meta> tags...
+		*for the description change the content to something like "Contact John Smith"
+		for the keywords change the content to include your name and occupation in a comma separated list.
+		for the author change the content to your name.
+	There is an icon file included in the repository, feel free to use your own.
+
+	
+-In the Body section-
+	-Navigation-
+		Copy everything between the <nav> tags from the index.html file.
+	-Main Content-
+		Replace "myname@example.com" with your email address.
+	-Footer Icons-
+		Copy the content from between the <div> tags on the index.html file.
+		
+		
+--------------------------------
+ Other Informaton
+--------------------------------
+
+The information above should be adequate to get you started with eResume. All
+information that becomes available after release will be listed here. Be sure and check for updates
+on GitHub. 
